@@ -1,6 +1,6 @@
-// COLUMBIA ENGINEERING 
-// By Emmanuel Martinez
-// Module 12
+//Module 12 Challenge
+
+//by Christopher Madden
 
 function init() {
   // Grab a reference to the dropdown select element
@@ -48,8 +48,6 @@ function buildMetadata(sample) {
     PANEL.html("");
 
     // Use `Object.entries` to add each key and value pair to the panel
-    // Hint: Inside the loop, you will need to use d3 to append new
-    // tags for each key-value in the metadata.
     Object.entries(result).forEach(([key, value]) => {
       PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
     });
@@ -57,9 +55,7 @@ function buildMetadata(sample) {
   });
 }
 
-// DELIVERABLE 1 Requirements
-// Create a Horizontal Bar Chart
-
+// Deliverable 1
 // 1. Create the buildCharts function.
 function buildCharts(sample) {
   // 2. Use d3.json to load and retrieve the samples.json file 
@@ -80,8 +76,6 @@ function buildCharts(sample) {
     var bubbleValues = result.sample_values;
 
     // 7. Create the yticks for the bar chart.
-    // Hint: Get the the top 10 otu_ids and map them in descending order  
-    //  so the otu_ids with the most bacteria are last. 
 
     var yticks = ids.map(sampleObj => "OTU " + sampleObj).slice(0,10).reverse();
 
@@ -102,11 +96,7 @@ function buildCharts(sample) {
     // 10. Use Plotly to plot the data with the layout. 
     Plotly.newPlot("bar", barData, barLayout);
 
-
-// DELIVERABLE 2 Requirements
-// Create a Bubble Chart
-
-
+    // Deliverable 2
     // 1. Create the trace for the bubble chart.
     var bubbleData = [{
       x: ids,
@@ -131,9 +121,7 @@ function buildCharts(sample) {
     // 3. Use Plotly to plot the data with the layout.
     Plotly.newPlot("bubble", bubbleData, bubbleLayout)
 
-// DELIVERABLE 3 Requirements
-// Create a Gauge Chart
-
+    // Deliverable 3
     // 1. Create a variable that filters the metadata array for the object with the desired sample number.
     var metadata = data.metadata;
     var gaugeArray = metadata.filter(metaObj => metaObj.id == sample);  
@@ -175,6 +163,3 @@ function buildCharts(sample) {
     Plotly.newPlot("gauge", gaugeData, gaugeLayout)
   });
 }
-
-// by Emmanuel Martinez
-// Challenge 12 - Columbia University
