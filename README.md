@@ -1,10 +1,12 @@
 # Module 12
 
-## Plotly_Biodiversity
+## GitHub Pages link: [GitHub Pages Link](https://maddenc33.github.io/)
 
-##### by Christopher Madden
+### Plotly_Biodiversity
 
-### Objectives:
+###### by Christopher Madden
+
+#### Objectives:
   - Create basic plots with Plotly, including bar charts, line charts, and pie charts.
   - Use D3.json() to fetch external data, such as CSV files and web APIs.
   - Parse data in JSON format.
@@ -14,4 +16,4 @@
   - How to use interactivity to enhance your visualizations.
   - Deploy an interactive chart to GitHub Pages.
   - 
-#### GitHub Pages link: [GitHub Pages Link](https://maddenc33.github.io/)
+
