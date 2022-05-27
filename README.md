@@ -1,6 +1,6 @@
 # Module 12
 
-## GitHub Pages link: [GitHub Pages Link](https://maddenc33.github.io/)
+## [GitHub Pages Link](https://maddenc33.github.io/)
 
 ### Plotly_Biodiversity
 
