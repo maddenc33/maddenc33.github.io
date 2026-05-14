@@ -26,6 +26,10 @@
 
 ---
 
+### 🌐 **[View Live Dashboard](https://maddenc33.github.io/)**
+
+---
+
 ## Project Overview
 
 This project builds and deploys an interactive data dashboard using Plotly.js and D3.js to explore a biodiversity dataset cataloging microbial species (operational taxonomic units, or OTUs) found in human belly buttons. Users can select individual test subjects from a dropdown menu and the dashboard dynamically updates to display that subject's top OTUs, sample metadata, and microbial frequency.
