@@ -24,8 +24,6 @@
 
 **Christopher Madden** | [LinkedIn](http://bit.ly/4uMMPV7) | [GitHub Portfolio](https://bit.ly/3Pz5LS3)
 
-### 🌐 **[View Live Dashboard](https://maddenc33.github.io/)**
-
 ---
 
 ## Project Overview
@@ -60,8 +58,7 @@ This is a portfolio project completed as part of my Data Analytics Certificate p
 
 ## Live Deployment
 
-The dashboard is deployed and accessible at:
-**[https://maddenc33.github.io/](https://maddenc33.github.io/)**
+### 🌐 **[View Live Dashboard](https://maddenc33.github.io/)**
 
 ---
 
