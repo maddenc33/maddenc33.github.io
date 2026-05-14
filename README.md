@@ -24,7 +24,7 @@
 
 **Christopher Madden** | [LinkedIn](http://bit.ly/4uMMPV7) | [GitHub Portfolio](https://bit.ly/3Pz5LS3)
 
-🌐 **[View Live Dashboard](https://maddenc33.github.io/)**
+## 🌐 **[View Live Dashboard](https://maddenc33.github.io/)**
 
 ---
 
