@@ -1,25 +1,3 @@
-# Module 12
-
-## [GitHub Pages Link](https://maddenc33.github.io/)
-
-### Plotly_Biodiversity
-
-###### by Christopher Madden
-
-#### Objectives:
-  - Create basic plots with Plotly, including bar charts, line charts, and pie charts.
-  - Use D3.json() to fetch external data, such as CSV files and web APIs.
-  - Parse data in JSON format.
-  - Use functional programming in JavaScript to manipulate data.
-  - Use JavaScript's Math library to manipulate numbers.
-  - Use event handlers in JavaScript to add interactivity to a data visualization.
-  - How to use interactivity to enhance your visualizations.
-  - Deploy an interactive chart to GitHub Pages.
-  - 
-
-## -----NEW-----
-
-
 # Biodiversity Dashboard | Plotly.js, D3.js, JavaScript, HTML
 
 **Christopher Madden** | [LinkedIn](http://bit.ly/4uMMPV7) | [GitHub Portfolio](https://bit.ly/3Pz5LS3)
@@ -57,12 +35,6 @@ This is a portfolio project completed as part of my Data Analytics Certificate p
 - **Bubble chart** — visualizes the full OTU sample, with marker size representing sample value and color encoding OTU ID
 - **Metadata panel** — displays demographic information for the selected subject (age, location, ethnicity, etc.)
 - **Gauge chart** — shows weekly belly button washing frequency for the selected subject
-
----
-
-## Live Deployment
-
-### 🌐 **[View Live Dashboard](https://maddenc33.github.io/)**
 
 ---
 
